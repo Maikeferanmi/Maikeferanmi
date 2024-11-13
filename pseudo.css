@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+button{
+    background-color: lightblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    transition: all 0.3s ease-in;
+}
+button:hover{
+    background-color: darkblue;
+    color: white;
+}
+button:focus-within{
+    background-color: greenyellow;
+}
+p{
+    color: white;
+}
+p::selection{
+    color: black;
+    background-color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: blueviolet;
+}
+div{
+    background-color: blue;
+    margin: auto;
+    width: 200px;
+    transition: all 0.3s ease-in;
+}
+div:hover{
+    background-color: black;
+    padding: 20px;
+}
+div:hover p{
+    color: red;
+}
+div p:first-child{
+    color: green;
+}
+div p:nth-child(2){
+    color: yellow;
+}

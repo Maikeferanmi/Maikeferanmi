@@ -1,0 +1,342 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+nav{
+    top: 0;
+    left:0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255)
+}
+h3{
+    text-align: center; 
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+h3 a{
+    color: black;
+}
+.logo{
+    margin-left: 50px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+}
+nav .btn{
+    margin-right: 20px;
+    padding: 10px 20px;
+}
+#first{
+    background-image: url(img/teslaBG1.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 92%;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-left: 60px;
+}
+#first h1{
+    position: absolute;
+    margin-left: 41%;
+    font-size: 60px;
+    color: white;  
+}
+#first h2{
+    margin-left: 44%;
+    margin-top: 115px;
+    color: white;
+    font-size: 27px;
+}
+#first p{
+    margin-left: 45%;
+    color: white;
+    margin-top: -1.5em;
+    font-weight: 600;
+}
+#first .links{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 32%;
+}
+.links .custom{
+    padding: 10px 80px;
+    text-decoration: none;
+    background-color: rgb(110, 110, 250);
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.links .existing{
+    padding: 10px 80px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+#second{
+    background-image: url(img/teslaBG2.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 92%;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#second h1{
+    position: absolute;
+    margin-left: 41%;
+    font-size: 60px;
+    color: white;  
+}
+#second h2{
+    margin-left: 44%;
+    margin-top: 115px;
+    color: white;
+    font-size: 27px;
+}
+#second p{
+    margin-left: 45%;
+    color: white;
+    margin-top: -1.5em;
+    font-weight: 600;
+}
+#second .links{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 32%;
+}
+#third{
+    background-image: url(img/teslaBG3.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 92%;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#third h1{
+    position: absolute;
+    margin-left: 42%;
+    font-size: 60px;
+    color: white;  
+}
+#third h2{
+    margin-left: 45%;
+    margin-top: -1em;
+    color: white;
+    font-size: 18px;
+}
+#third p{
+    margin-left: 47%;
+    color: white;
+    margin-top: 115px;
+    font-weight: 600;
+    font-size: 29px;
+}
+#third .links{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 32%;
+}
+#fourth{
+    background-image: url(img/teslaBG4.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 92%;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#fourth h1{
+    position: absolute;
+    margin-left: 42%;
+    font-size: 60px;
+    color: white;  
+}
+#fourth h2{
+    margin-left: 45%;
+    margin-top: -1em;
+    color: white;
+    font-size: 18px;
+}
+#fourth p{
+    margin-left: 47%;
+    color: white;
+    margin-top: 115px;
+    font-weight: 600;
+    font-size: 29px;
+}
+#fourth .links{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 32%;
+}
+#fifth{
+    background-image: url(img/teslaBG5.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 92%;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#fifth .links{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 30%;
+}
+.links .fcustom{
+    padding: 10px 80px;
+    text-decoration: none;
+    background-color: rgb(41, 20, 20);
+    border-radius: 5px;
+    color: rgb(104, 83, 83);
+    margin-right: 10px;
+    font-weight: 700;
+}
+.links .fexisting{
+    padding: 10px 80px;
+    text-decoration: none;
+    background-color: rgb(41, 20, 20);
+    border-radius: 5px;
+    color: rgb(104, 83, 83);
+    font-weight: 700;
+}
+#sixth{
+    background-image: url(img/teslaBG6.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 45%;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#sixth h1{
+    position: absolute;
+    margin-left: 10%;
+    font-size: 60px;
+    color: white;  
+}
+#sixth h2{
+    margin-left: 20%;
+    margin-top: 120px;
+    color: white;
+    font-size: 25px;
+}
+#seventh{
+    background-image: url(img/teslaBG7.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 45%;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-left: 51%;
+    margin-top: -49em;
+}
+#seventh h1{
+    position: absolute;
+    margin-left: 13%;
+    font-size: 60px;
+    color: white;  
+}
+#seventh h2{
+    margin-left: 20%;
+    margin-top: 120px;
+    color: white;
+    font-size: 25px;
+}
+#eighth{
+    background-image: url(img/teslaBG8.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 92%;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#eighth h1{
+    position: absolute;
+    margin-left: 36%;
+    font-size: 60px;
+    color: white;
+    margin-top: -0.1em;
+}
+#eighth .links{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 32%;
+}
+#nineth{
+    background-image: url(img/teslaBG9.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 92%;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#nineth h1{
+    position: absolute;
+    margin-left: 36%;
+    font-size: 60px;
+    color: white;
+    margin-top: -0.1em;
+}
+#nineth .links{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 40%;
+}
+.text{
+    text-align: center;
+    font-size: smaller;
+    padding: 20px 35%;
+}
+.text a{
+    color: black;
+}

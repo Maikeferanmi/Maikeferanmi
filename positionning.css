@@ -1,0 +1,39 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position:absolute;
+    top: 40px;
+    left: 100px;
+    
+}
+main{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    z-index: 1;
+}
+nav{
+    background-color: navy;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    z-index: 1;
+}

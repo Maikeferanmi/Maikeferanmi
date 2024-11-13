@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: ;
+    background: rgb(162, 208, 229);
+}
+.form1{
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8a8a8a;
+}
+.form1 p{
+    width: 30%;
+    font-size: small;
+}
+.form1 input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+}
+.form2{
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8a8a8a;
+}
+.form2 p{
+    width: 30%;
+    font-size: small;
+}
+.form2 input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    
+}
+.form3{
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8a8a8a;
+}
+.form3 p{
+    width: 30%;
+    font-size: small;
+}
+.form3 input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+}
+.btn4{
+    background: rgb(0, 183, 255);
+    color: white;
+    width: 100%;
+    height: 38px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1{
+    width: 70px;
+    height: 34px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(0, 174, 243);
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+}
+.btn2{
+    width: 70px;
+    height: 34px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.btn3{
+    width: 70px;
+    height: 34px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header{
+    font-weight: 700;
+    text-align: center;
+    font-size: large;
+}
+.container{
+    position: relative;
+    max-width: 1000px;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px;
+}
+.btn2 :hover{
+    background-color: #1e9ff3;
+    outline: none;
+}
+.leb{
+   align-items: center;
+}

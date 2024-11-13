@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animination</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(83, 188, 236);
+            /*animation: vivian 4s cubic-bezier(0.2, 0.78, 0.85, 0.37) 2s 4 alternate-reverse both;*/
+            overflow: scroll;
+        }
+        @keyframes vivian{
+            0%{
+                background-color: red;
+                transform: translate(0,0);
+                border-radius: 0;
+            }
+            25%{
+                background-color: green;
+                transform: translate(200px, 0);
+                border-radius: 50%;
+            }
+            50%{
+                background-color: blue;
+                transform: translate(200px, 200px);
+            }
+            75%{
+                background-color: yellow;
+                transform: translate(0, 200px);
+                border-radius: 20%
+            }
+            100%{
+                background-color: pink;
+                transform: translate(0, 0);
+                transform: rotate(0deg);
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero eveniet eaque maiores earum aspernatur suscipit pariatur. Aperiam esse enim, iste, laboriosam minima voluptatem perspiciatis ipsum explicabo atque, nemo amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere nostrum ullam tempora ab sit a laborum magni officiis voluptas necessitatibus, laboriosam fugiat voluptatibus eos! Culpa illum atque sint nihil! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores explicabo soluta fuga libero blanditiis error veritatis tempore, incidunt perferendis inventore eaque obcaecati, accusamus pariatur, quia accusantium dolore molestiae nesciunt rem.</div>
+</body>
+</html>

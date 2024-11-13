@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        nav{
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        nav div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;  
+        }
+        nav a,
+        nav div {
+            text-decoration: none;
+            font-weight: 500;
+            color: white;
+        }
+        nav .menu{
+            position: relative;
+            display: none;
+        }
+        nav .menu div{
+            position: absolute;
+            top: -20px;
+            left: -14;
+            z-index: -1;
+            display: none;
+            flex-direction: column;
+            padding: 10px;
+            background-color: rgb(83, 40, 238);
+            height: 100vh;
+        }
+        nav div{
+            display: flex;
+        }
+        nav .menu:focus-within div{
+            display: flex;
+        }
+        @media only screen and (max-width: 750px) {
+            nav .menu{
+                display: block;
+            }
+            nav .item{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Logo</div>
+        <div class="items">
+        <a href="#">about</a>
+        <a href="#">contact</a>
+        <a href="#">sign up</a>
+        <a href="#">login</a>
+    </div>
+    <div class="menu">
+        <a href="#">Menu</a>
+
+        <div>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+            <a href="#">sign up</a>
+            <a href="#">login</a>
+        </div>
+    </div>
+    </nav>
+</body>
+</html>

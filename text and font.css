@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(61, 60, 60);
+}
+h1,
+h2,
+h3,
+p{
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    color: greenyellow;
+}
+p.first{
+    font-size: 1.3rem;
+    background-color: navy;
+    text-align: left;
+    text-align-last: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 255, 55);
+    text-decoration-style: double;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+h3{
+    color: white;
+}
+.span{
+    text-transform: capitalize;
+    color: aliceblue;
+    text-indent: 50px;
+    font-size:1.3rem ;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    word-spacing: 20px;
+}
+h1{
+    text-shadow: 2px 2px 10px red;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: navy;
+    margin: 20px auto;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px  white;
+}

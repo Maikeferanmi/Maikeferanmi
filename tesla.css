@@ -1,0 +1,163 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: white;
+}
+nav{
+    top: 0;
+    left:0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+p{
+    text-align: center; 
+    color: black;
+    text-decoration: none;
+    width: 100%;   
+}
+.logo{
+    margin-left: 18px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+nav .btn{
+    color: black;
+    text-decoration: none;
+    margin-right: 18px;
+    padding: 10px;
+    gap: 20px;
+}
+#one{
+    background-image: url(https://wallpapercat.com/w/full/3/3/a/10163-1920x1080-desktop-full-hd-tesla-model-y-background-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+#one .content{
+    position: absolute;
+    min-height: 100vh;
+    margin-left: 40%;
+    color: rgb(66, 68, 70);
+    font-size: larger;
+   
+}
+.content h1{
+    font-size: 65px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.content h3{
+    height: 4px;
+}
+#one .links{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 32%;
+}
+.links .custom{
+    padding: 10px 80px;
+    text-decoration: none;
+    background-color: rgb(110, 110, 250);
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.links .existing{
+    padding: 10px 80px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+#two{
+    background-image: url(https://www.motortrend.com/uploads/2024/01/2024-Tesla-Model-3-Highland-EV-red-black-2.png?w=768&width=768&q=75&format=webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+#two .links{
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 32%;
+}
+#two .content{
+    position: absolute;
+    min-height: 100vh;
+    margin-left: 40%;
+    color: rgb(66, 68, 70);
+    font-size: larger;
+}
+#two .links .existing{
+    padding: 10px 80px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+#three{
+    background-image: url(img/pg323.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+#three .links{
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 32%;
+}
+#three .content{
+    position: absolute;
+    min-height: 100vh;
+    margin-left: 40%;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+#three .links .existing{
+    padding: 10px 80px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+#three .content p{
+    margin-top: 15%;
+}

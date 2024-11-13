@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators in css</title>
+    <style>
+        p{
+            color: red;
+        }
+        /* decendant or Space combination */
+        section p{
+            color: blue;
+            text-align: center;
+        }
+
+        /* child combinator(>) */
+        section > p{
+            color: green;
+        }
+        section > p:nth-child(2) {
+            background-color:black
+        }
+
+        /* general siblings combinator (~) */
+        section ~ h1 {
+            text-align: center;
+            color: red;
+            background-color: blue;
+        }
+
+        /* Adjacent siblings combinator(+) */
+        div + p {
+            background-color: purple;
+        }
+        section + h1{
+            text-align: center;
+            color: black;
+            background-color: brown;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Combinators in CSS</h1>
+    <p>This is a P tag</p>
+    <section>
+        <p>This is P tag</p>
+        <p>This is P tag</p>
+        <p>This is P tag</p>
+
+        <div>
+            <p>This is a P tag</p>
+            <p>This is a P tag</p>
+            <p>This is a P tag</p>
+        </div>
+
+        <p>This is a P tag</p>
+        <p>This is a P tag</p>
+        <p>This is a P tag</p>
+    </section>
+    
+    <h1>After a selection</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut voluptate assumenda ipsam, nostrum ut voluptatibus vitae veniam corrupti ratione dicta eius provident sit asperiores obcaecati officia quasi velit quia similique.</p>
+</body>
+</html>
