@@ -126,7 +126,7 @@ section .textt{
 }
 .nextp{
     width: 100%;
-    height: 700vh;
+    height: 600vh;
     background-color: white;
 }
 .textt p{
@@ -141,7 +141,14 @@ section img{
 }
 div .btnnn{
    margin-top: -6rem;
-    
+}
+@media only screen and (max-width:950px) {
+    section{
+        flex-direction: column;
+    }
+    div{
+        width: 100%;
+    }
 }
 #video{
     width: 85%;
@@ -448,37 +455,67 @@ div .pp{
 }
 #third{
     background-color: rgb(47, 201, 188);
-    height: 70vh;
-    width: 85%;
+    height: 72vh;
+    width: 84%;
     border-radius: 12px;
     margin: auto;
+    margin-top: 10rem;
 }
 #third h3{
     position: absolute;
     margin-left: 27%;
     font-size: 50px;
-    color: rgb(20, 19, 19);
+    color: rgb(20, 11, 68);
     margin-top: 7%;  
 }
 #third .links{
     position: absolute;
     margin-top: 20%;
-    margin-left: 20%;
+    margin-left: 24%;
 }
 .links .custom{
-    padding: 10px 80px;
+    padding: 20px 60px;
     text-decoration: none;
-    background-color: rgb(110, 110, 250);
-    border-radius: 5px;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    color: black;
     margin-right: 10px;
     font-weight: 700;
 }
 .links .existing{
-    padding: 10px 80px;
+    padding: 20px 60px;
     text-decoration: none;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    color: black;
+    background-color: rgb(5, 15, 58);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
     font-weight: 700;
+}
+.lastp{
+    width: 100%;
+    height: 58vh;
+    background-color: rgb(18, 18, 83);
+    margin-top: -15rem;
+    flex-wrap: wrap;
+}
+.pppe{
+    flex-wrap: wrap;
+    margin-top: 7rem;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 23px;
+    margin-left: 8%;
+}
+.lastp .yess{
+    color: aliceblue;
+    margin-left: 50%;
+    font-size: 24px;
+    margin-top: 10rem;
+}
+section .h55{
+    color: aliceblue;
+    margin-left: 50%;
+    font-size: 24px;
+    margin: auto;
+    text-align: center;
+    bottom: -38%;
 }
