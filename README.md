@@ -47,17 +47,3 @@ Let’s create something amazing together! 🚀
 
 ---
 
-<div align="center">
-
-### 🌟 GitHub Stats
-
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=damilordz&show_icons=true&theme=radical) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=damilordz&layout=compact&theme=radical) |
-|:--:|:--:|
-
----
-
-### 📈 Contribution Activity
-
-![Contribution Graph](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=damilordz&theme=github_dark)
-
-</div>
