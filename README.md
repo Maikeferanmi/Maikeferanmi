@@ -19,7 +19,7 @@ Hello! I'm a passionate **full-stack software developer** who loves building sec
 
 #### 🖥️ **Portfolio Website**  
 A sleek showcase of my work and skills, crafted using **HTML, CSS,**, and **JavaScript**.  
-🔗 [Check it out here!]()  
+🔗 [Check it out here!](https://dev-maike-maikeferanmis-projects.vercel.app/)  
 
 #### 💰 **My Crypto Investment Website**  
 A modern, user-friendly platform that helps users explore, track, and manage crypto or stock investments, crafted using **HTML, CSS,**, and **JavaScript**.  
@@ -35,7 +35,7 @@ A modern, user-friendly platform that helps users explore, track, and manage cry
 
 ## 💬 **Let’s Connect!**  
 I’d love to hear from you—whether it’s a question, collaboration opportunity, or just to say hi!  
-- 🌐 [Portfolio]()  
+- 🌐 [Portfolio](https://dev-maike-maikeferanmis-projects.vercel.app/)  
 - 📧 [Email Me](mailto:michealferanmi02@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/micheal-f-owonifaari-11191831b/)  
 - 📷 [Instagram](https://www.instagram.com/maike_feranmi) 
